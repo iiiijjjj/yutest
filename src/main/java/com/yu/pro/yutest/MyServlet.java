@@ -23,6 +23,8 @@ public class MyServlet extends HttpServlet {
         asyncContext.start(()->{
             try {
                 resp.getWriter().println("Hello,World");
+
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
